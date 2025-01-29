@@ -15,3 +15,18 @@ return 0;
 //Output
 Enter the Value of a
 2
+
+// Taking string as input
+
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+  string s= "Hello";
+  cin >> s;
+  cout << s << endl;
+return 0;
+}
+
+//Output
+Hello
