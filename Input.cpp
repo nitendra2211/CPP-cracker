@@ -30,3 +30,21 @@ return 0;
 
 //Output
 Hello
+
+
+
+// Taking string as an input using getline method
+
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+string s= "Hello";
+getline(cin, s);
+cout << s << endl;
+
+return 0;
+}
+
+// output
+Hello
